@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>contact us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Baskerville Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+	a:link{
+		color:black;
+	}
+* {
+  box-sizing: border-box;
+}
+.topnav {
+	width:100%;
+  overflow: auto;
+  background-color:#644F35;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+	width:25%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+.topnav a.active {
+  background-color:
+  color: white;
+	
+}
+	@media screen and (max-width: 500px) {
+  .topnav a  {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+	}
+.header {
+  background-color:#CD8F44;
+     	color: white;
+     	text-shadow: 3px 4px 3px #000000;
+     	font-size:35px;
+ 	 	text-align: center;
+ 	 	padding: 15px;
+	 	box-shadow: 5px 5px 7px 5px black ;
+}
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #D5B678;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#CD9953;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+	.button{
+		display:inline-block;
+		padding: 15px 25px;
+		font-size: 20px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		color: #fff;
+		background-color:#D5B678;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+	}
+	
+	.button:hover {background-color:#CCA048}
+	.button:active{
+	background-color:#B88613;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+	
+	.submittt:hover {background-color:#CCA048}
+	.submitt:active{
+	background-color:#B88613;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+	.footer {
+  background-color:#495647;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+</style>
+</head>
+<body>
+	
+	
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="featured.html">Featured</a>
+  <a href="discounts.html">Discounts</a>
+  <a href="contactus.html">Contact Us</a>
+</div>
+	<div class="header">
+	<h1>How Can We Help?</h1>
+	</div>
+	<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or concerns don't hesitate to reach out to us.</p>
+	  <p><button class="button"><a href="gabriellaramirez1997@icoud.com" target="_blank">Email</a></button></p>
+  </div>
+  <div class="row">
+    <div class="column"> </div>
+    <div class="column">
+      <form action="">
+        <label for="name"> Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+          <option value="featured">Featured Pet</option>
+          <option value="discounts">Discounts</option>
+          <option value="Donations">Donations</option>
+			<option
+					value="other">Other</option>
+        </select>
+        <label for="Message">Message</label>
+        <textarea id="Message" name="Message" placeholder="Write something.." style="height:170px"></textarea>
+		  <input type="submit" class="submitt" value="submit">
+      </form>
+    </div>
+  </div>
+</div>
+	<footer>
+	<div class="footer">
+  <p>link email? maybe place popular pet brands</p>
+</div>
+	</footer>
+	
+	</body>
+</html>
