@@ -1,9 +1,27 @@
 @charset "utf-8";
 /* CSS Document */
-				body {
-  					margin: 0;
-  					font-family: Baskerville Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+					h2
+					{font-family: "Martian Mono", monospace;
+  					font-optical-sizing: auto;
+  					font-weight:400;
+  					font-style: normal;
+  					font-variation-settings:
+    				"wdth" 100;
 					}
+					h4{
+						font-family: "Courgette", cursive;
+						  font-weight: 700;
+						  font-style: normal;
+						  
+				}
+				
+				p{
+	
+  
+					   font-family: "Sriracha", cursive;
+					  font-weight: 400;
+					  font-style: normal;
+}
 				*{
   					box-sizing: border-box;
 					}
@@ -56,6 +74,12 @@
      				color: white;
      				text-shadow: 3px 4px 3px #000000;
      				font-size:35px;
+					font-family: "Martian Mono", monospace;
+  					font-optical-sizing: auto;
+  					font-weight:200;
+  					font-style: normal;
+  					font-variation-settings:
+    				"wdth" 100;
  	 				text-align: center;
  	 				padding: 15px;
 	 				box-shadow: 5px 5px 7px 2px black ;
@@ -86,7 +110,7 @@
 				.footer {
   					background-color:#495647;
   					color: #ffffff;
-  					text-align: right;
+  					
   					font-size: 12px;
   					
 					width:100%;
@@ -209,7 +233,11 @@
 						margin-top: 0;
 					}
 			}
-
+					.mama{
+				text-align:center;
+				background-color:#F2EBDC;
+			}
+ 
 				input[type=text], select, textarea {
 					    width: 100%;
 						padding: 12px;
@@ -303,5 +331,35 @@
 			   .containerb {
   					border-radius: 5px;
   					padding: 10px;
+				}
+
+				.about {border:thick;
+					border-bottom: thin;
+					background-color:#F2EBDC;
+					padding: 15px;
+  					box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+					}
+				.flex-container {
+				  display: flex;
+				  flex-direction: row;
+				  font-size: 20px;
+				  text-align: center;
+				}
+
+				.flex-item-left {
+				  background-color: #F2EBDC;
+				  padding: 10px;
+				  flex: 50%;
+				}
+
+				.flex-item-right {
+				  background-color: #F2EBDC;
+				  padding: 10px;
+				  flex: 50%;
+				}
+				@media (max-width: 2000px) {
+				  .flex-container {
+					flex-direction: column;
+				  }
 				}
 
